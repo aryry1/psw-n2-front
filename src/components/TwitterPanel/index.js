@@ -14,7 +14,7 @@ const TwitterPanel = () => {
     try {
       const {
         data: { data },
-      } = await axios.get("https://twitter-trend-topics-api.herokuapp.com/api/trends", {
+      } = await axios.get("https://psw-n2-back.herokuapp.com/api/trends", {
         headers: {
           Authorization: "Bearer " + process.env.REACT_APP_ACCESS_TOKEN,
         },
