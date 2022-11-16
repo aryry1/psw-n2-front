@@ -1,0 +1,78 @@
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  padding: 32px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: #3c4048;
+  border-radius: 12px;
+  padding: 12px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+
+  max-height: 620px;
+  height: 620px;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

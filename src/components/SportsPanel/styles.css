@@ -1,0 +1,31 @@
+.sport {
+  display: flex;
+  flex-direction: column;
+}
+.sport-leaguename {
+  font-size: 18px;
+}
+
+.sport-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.sport-table-item {
+  margin: 12px 0;
+  border-radius: 8px;
+  background: #20242e;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sport-table-item-value {
+  font-size: 16px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
